@@ -2,218 +2,217 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anas Khan - Full Stack MERN Developer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-   <style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anas Khan - Full Stack MERN Developer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
     body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #f0f2f5;
-        color: #333;
-        font-size: 18px;
-        height: 150vh;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f2f5;
+      color: #333;
+      font-size: 18px;
     }
 
     #resume {
-        background: white;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-        border-radius: 15px;
-        padding: 3rem;
-        margin-top: 3rem;
-        max-width: 900px;
-        margin-left: auto;
-        margin-right: auto;
+      background: white;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      border-radius: 15px;
+      padding: 3rem;
+      margin-top: 3rem;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .highlight {
-        color: #5C60F5;
-        font-weight: bold;
+      color: #5C60F5;
+      font-weight: bold;
     }
 
     .section-title {
-        color: #5C60F5;
-        border-bottom: 2px solid #5C60F5;
-        display: inline-block;
-        padding-bottom: 5px;
-        margin-bottom: 1rem;
-        margin-top: 15px;
-        font-size: 2rem;
+      color: #5C60F5;
+      border-bottom: 2px solid #5C60F5;
+      display: inline-block;
+      padding-bottom: 5px;
+      margin-bottom: 1rem;
+      margin-top: 15px;
+      font-size: 2rem;
     }
 
     h1 {
-        font-size: 3rem;
+      font-size: 3rem;
     }
 
-    p, li {
-        line-height: 1.7;
+    p,
+    li {
+      line-height: 1.7;
     }
 
     .custom-list li::marker {
-        color: #5C60F5;
+      color: #5C60F5;
     }
 
     .contact-info p a {
-        text-decoration: none;
-        color: #5C60F5;
+      text-decoration: none;
+      color: #5C60F5;
     }
 
     .contact-info p a:hover {
-        text-decoration: underline;
+      text-decoration: underline;
+    }
+
+    /* Print Styling */
+    @page {
+      size: A4;
+      margin: 20mm;
     }
 
     @media print {
-        body {
-            background: white;
-            color: #000;
-            font-size: 18px;
-        }
+      body {
+        background: white;
+        color: #000;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+      }
 
-        #resume {
-            box-shadow: none;
-            margin: 0;
-            padding: 2rem;
-            border-radius: 0;
-        }
+      #resume {
+        width: 210mm;
+        min-height: 297mm;
+        margin: 0 auto;
+        padding: 20mm;
+        box-shadow: none;
+        border-radius: 0;
+        page-break-after: auto;
+      }
 
-        a {
-            color: #000 !important;
-            text-decoration: underline;
-        }
+      a {
+        color: #000 !important;
+        text-decoration: underline;
+      }
 
-        .highlight {
-            color: black !important;
-        }
+      .highlight {
+        color: black !important;
+      }
 
-        img {
-            max-width: 100%;
-        }
-    } 
-</style>
-
+      img {
+        max-width: 100%;
+      }
+    }
+  </style>
 </head>
 
 <body>
-    <div class="container" id="resume">
-        <div class="text-center mb-5">
-            <h1 class="display-4 fw-bold">Anas Khan</h1>
-            <p class="fs-4 text-muted">Full Stack MERN Developer</p>
-        </div>
-
-        <div class="row contact-info mb-4">
-            <div class="col-md-6">
-                <p><strong>Email:</strong> <a href="mailto:anaskhany47@gmail.com">anaskhany47@gmail.com</a></p>
-                <p><strong>Phone:</strong> +91 9301893055</p>
-            </div>
-            <div class="col-md-6">
-                <p><strong>GitHub:</strong> <a href="https://github.com/anaskhan047"
-                        target="_blank">github.com/anaskhan047</a></p>
-                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/anas-khan-b010aa28b/"
-                        target="_blank">linkedin.com/in/anas-khan</a></p>
-            </div>
-        </div>
-
-        <h2 class="section-title">Summary</h2>
-        <p class="mb-4 fs-5">Full Stack Web Developer with strong experience in the MERN stack, focused on creating
-            fast, intuitive, and scalable applications. Graduate in Computer Science and certified in professional web
-            development. Skilled in designing engaging UIs, developing robust backends, and building real-world projects
-            like eCommerce platforms and admin panels.</p>
-
-            <h2 class="section-title">About Me</h2>
-            <p class="mb-4 fs-5">
-                I'm a passionate Full Stack Developer with a love for clean code and problem-solving. I specialize in building user-focused web apps using the MERN stack. I thrive in collaborative environments, constantly explore new tech, and aim to craft digital experiences that are both functional and beautiful.
-            </p>
-            
-
-        <h2 class="section-title ">Skills</h2>
-        <!-- Tech stack icons -->
-        <ul class="fs-5 mb-4 custom-list">
-            <li>HTML, CSS, JavaScript</li>
-            <li>React, Redux, Bootstrap, EJS</li>
-            <li>Node.js, Express.js</li>
-            <li>MongoDB, Mongoose</li>
-            <li>RESTful APIs, JWT, OAuth</li>
-            <li>UI/UX Optimization, Git, GitHub</li>
-        </ul>
-        <div class="text-start mb-4">
-            <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,mongodb,express,bootstrap,git,github" alt="tech stack icons" />
+  <div class="container" id="resume">
+    <div class="text-center mb-5">
+      <h1 class="display-4 fw-bold">Anas Khan</h1>
+      <p class="fs-4 text-muted">Full Stack MERN Developer</p>
     </div>
 
-        <h2 class="section-title">Featured Project: GK Opticals</h2>
-        <ul class="fs-5 mb-4 custom-list">
-            <li>Developed a full-featured eCommerce platform for a local business</li>
-            <li>Included product filtering, secure checkout, and user authentication</li>
-            <li>Built using the MERN stack with custom backend and responsive UI</li>
-        </ul>
-
-        <h2 class="section-title">Other Projects</h2>
-        <ul class="fs-5 mb-4 custom-list">
-            <li><strong>Job Vision</strong>: Responsive UI for job portal.</li>
-            <li><strong>Bus Reservation System</strong>: Ticket booking app for multiple users with validations.</li>
-            <li><strong>React Redux CRUD</strong>: CRUD functionality with Redux Toolkit.</li>
-            <li><strong>Todo App</strong>: Created in React and JS versions.</li>
-            <li><strong>EJS CRUD</strong>: Server-rendered app using Node.js + EJS.</li>
-            <li><strong>News Template</strong>: Responsive design for a news platform.</li>
-            <li><strong>Custom Slider</strong>: Created a unique slider with nav buttons.</li>
-            <li><strong>UI Design for Company</strong>: Branding-oriented modern template clone.</li>
-            <li><strong>Restaurant UI</strong>: Elegant and mobile-first restaurant site.</li>
-            <li><strong>List Race Template</strong>: One-page UI with smooth scroll animations.</li>
-        </ul>
-
-        <div class="d-flex justify-content-start flex-wrap mt-5">
-            <div class="col-md-12">
-                <h2 class="section-title">Education</h2>
-                <p class="fs-5 mb-4"><strong>Bachelor of Science in Computer Science</strong><br>Annie Besant College —
-                    <span class="highlight">Graduated in 2024</span>
-                </p>
-            </div>
-
-            <div class="col-md-12">
-                <h2 class="section-title">Certifications</h2>
-                <p class="fs-5 mb-4">Web Development Certificate — <span class="highlight">Future Multimedia</span></p>
-            </div>
-
-            <div class="col-md-12">
-                <h2 class="section-title">Languages</h2>
-                <p class="fs-5">Hindi, English</p>
-            </div>
-            <div class="col-md-12">
-                <h2 class="section-title">Personal Traits</h2>
-                <ul class="custom-list ">
-                    <li>Quick Learner</li>
-                    <li>Problem Solver</li>
-                    <li>Strong Communication</li>
-                    <li>Team Player & Adaptable</li>
-                </ul>
-            </div>
-            <div class="col-md-12">
-                <h2 class="section-title">Hobbies & Interests</h2>
-                <ul class="custom-list">
-                    <li>Web Design & UI Exploration</li>
-                    <li>Learning new tech & coding challenges</li>
-                    <li>Fitness activities</li>
-                    <li>Watching Movies & Web Series</li>
-                </ul>
-            </div>
-
-            <div class="col-md-12">
-                <h2 class="section-title">Achievements</h2>
-                <ul class="custom-list">
-                    <li>Built 10+ fully responsive web applications using the MERN stack</li>
-                    <li>My Long Term goal is to achieve a good Positon where i can build my carrer and help the organization too.</li>
-                    <li>Completed 100+ GitHub commits and contributions on open-source projects</li>
-                    <li>Ranked in top 5% in coding tests on platforms like HackerRank</li>
-                    <li>Developed real-world eCommerce app used by local business</li>
-                </ul>
-            </div>
-        </div>
-        <div class="text-end mt-5 p-3">
-            <h2 style="font-family: 'Georgia', serif; color: #6c63ff; font-style: italic; font-weight: bold;">
-                — Anas Khan
-            </h2>
-        </div>
-        
+    <div class="row contact-info mb-4">
+      <div class="col-md-6">
+        <p><strong>Email:</strong> <a href="mailto:anaskhany47@gmail.com">anaskhany47@gmail.com</a></p>
+        <p><strong>Phone:</strong> +91 9301893055</p>
+      </div>
+      <div class="col-md-6">
+        <p><strong>GitHub:</strong> <a href="https://github.com/anaskhan047" target="_blank">github.com/anaskhan047</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/anas-khan-b010aa28b/" target="_blank">linkedin.com/in/anas-khan</a></p>
+      </div>
     </div>
+
+    <h2 class="section-title">Summary</h2>
+    <p class="mb-4 fs-5">Full Stack Web Developer with strong experience in the MERN stack, focused on creating fast, intuitive, and scalable applications. Graduate in Computer Science and certified in professional web development. Skilled in designing engaging UIs, developing robust backends, and building real-world projects like eCommerce platforms and admin panels.</p>
+
+    <h2 class="section-title">About Me</h2>
+    <p class="mb-4 fs-5">I'm a passionate Full Stack Developer with a love for clean code and problem-solving. I specialize in building user-focused web apps using the MERN stack. I thrive in collaborative environments, constantly explore new tech, and aim to craft digital experiences that are both functional and beautiful.</p>
+
+    <h2 class="section-title">Skills</h2>
+    <ul class="fs-5 mb-4 custom-list">
+      <li>HTML, CSS, JavaScript</li>
+      <li>React, Redux, Bootstrap, EJS</li>
+      <li>Node.js, Express.js</li>
+      <li>MongoDB, Mongoose</li>
+      <li>RESTful APIs, JWT, OAuth</li>
+      <li>UI/UX Optimization, Git, GitHub</li>
+    </ul>
+    <div class="text-start mb-4">
+      <img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,mongodb,express,bootstrap,git,github" alt="tech stack icons" />
+    </div>
+
+    <h2 class="section-title">Featured Project: GK Opticals</h2>
+    <ul class="fs-5 mb-4 custom-list">
+      <li>Developed a full-featured eCommerce platform for a local business</li>
+      <li>Included product filtering, secure checkout, and user authentication</li>
+      <li>Built using the MERN stack with custom backend and responsive UI</li>
+    </ul>
+
+    <h2 class="section-title">Other Projects</h2>
+    <ul class="fs-5 mb-4 custom-list">
+      <li><strong>Job Vision</strong>: Responsive UI for job portal.</li>
+      <li><strong>Bus Reservation System</strong>: Ticket booking app for multiple users with validations.</li>
+      <li><strong>React Redux CRUD</strong>: CRUD functionality with Redux Toolkit.</li>
+      <li><strong>Todo App</strong>: Created in React and JS versions.</li>
+      <li><strong>EJS CRUD</strong>: Server-rendered app using Node.js + EJS.</li>
+      <li><strong>News Template</strong>: Responsive design for a news platform.</li>
+      <li><strong>Custom Slider</strong>: Created a unique slider with nav buttons.</li>
+      <li><strong>UI Design for Company</strong>: Branding-oriented modern template clone.</li>
+      <li><strong>Restaurant UI</strong>: Elegant and mobile-first restaurant site.</li>
+      <li><strong>List Race Template</strong>: One-page UI with smooth scroll animations.</li>
+    </ul>
+
+    <div class="d-flex justify-content-start flex-wrap mt-5">
+      <div class="col-md-12">
+        <h2 class="section-title">Education</h2>
+        <p class="fs-5 mb-4"><strong>Bachelor of Science in Computer Science</strong><br />Annie Besant College — <span class="highlight">Graduated in 2024</span></p>
+      </div>
+
+      <div class="col-md-12">
+        <h2 class="section-title">Certifications</h2>
+        <p class="fs-5 mb-4">Web Development Certificate — <span class="highlight">Future Multimedia</span></p>
+      </div>
+
+      <div class="col-md-12">
+        <h2 class="section-title">Languages</h2>
+        <p class="fs-5">Hindi, English</p>
+      </div>
+
+      <div class="col-md-12">
+        <h2 class="section-title">Personal Traits</h2>
+        <ul class="custom-list">
+          <li>Quick Learner</li>
+          <li>Problem Solver</li>
+          <li>Strong Communication</li>
+          <li>Team Player & Adaptable</li>
+        </ul>
+      </div>
+
+      <div class="col-md-12">
+        <h2 class="section-title">Hobbies & Interests</h2>
+        <ul class="custom-list">
+          <li>Web Design & UI Exploration</li>
+          <li>Learning new tech & coding challenges</li>
+          <li>Fitness activities</li>
+          <li>Watching Movies & Web Series</li>
+        </ul>
+      </div>
+
+      <div class="col-md-12">
+        <h2 class="section-title">Achievements</h2>
+        <ul class="custom-list">
+          <li>Built 10+ fully responsive web applications using the MERN stack</li>
+          <li>My Long Term goal is to achieve a good Positon where I can build my career and help the organization too.</li>
+          <li>Completed 100+ GitHub commits and contributions on open-source projects</li>
+          <li>Ranked in top 5% in coding tests on platforms like HackerRank</li>
+          <li>Developed real-world eCommerce app used by local business</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="text-end mt-5 p-3">
+      <h2 style="font-family: 'Georgia', serif; color: #6c63ff; font-style: italic; font-weight: bold;">— Anas Khan</h2>
+    </div>
+  </div>
 </body>
 
 </html>
